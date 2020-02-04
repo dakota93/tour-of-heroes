@@ -15,12 +15,13 @@ heroes: Hero [];
   constructor(private heroService: HeroService) { }
 
 
+
   ngOnInit() {
-    this.getHeroes
+    this.getHeroes();
   }
 
   onSelect(hero:Hero){
-    this.selectedHero= hero;
+    this.selectedHero = hero;
   }
 
   getHeroes () {
